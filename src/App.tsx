@@ -15,8 +15,7 @@ function App() {
           <Route path="/search/:name" element={<GifsList/>}/>
           <Route path="/detail/:id" element={<Detail/>}/>
         </Route>
-      </Routes>
-    
+      </Routes> 
     </BrowserRouter>
   )
 }
